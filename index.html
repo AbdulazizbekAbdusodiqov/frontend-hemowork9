@@ -10,6 +10,11 @@
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap">
 
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="./css/style.css">
     <title>IIFA</title>
 </head>
@@ -17,8 +22,14 @@
 <body>
     <header>
         <nav>
+            <div class="menu-toggler" id="menu-toggler">
+                <i class="fas fa-bars"></i>
+            </div>
             <div class="nav__logo">
                 <img src="./img/logo.svg" alt="logo iifa IIFA">
+            </div>
+            <div class="menu-toggler">
+                <i class="fas fa-sign-out"></i>
             </div>
             <ul>
                 <li><a href="#">ABOUT</a></li>
@@ -54,6 +65,18 @@
                 <img src="./img/bank building, agreement and interest rate.png" alt=" bank image">
             </div>
         </div>
+
+        <section class="media-about">
+            <div class="container media-about-container">
+
+                <p class="media__about-first">
+                    Kurs yakunida sertifikat olish un ofisga borib imtihon topshirilishi haqida yozish kk shu yerga
+                </p>
+                <p class="media__about-second">
+                    IIFA - upgrade your knowladge
+                </p>
+            </div>
+        </section>
 
         <div class="slider-container">
             <div class="slider">
@@ -92,12 +115,158 @@
                 <button class="next slide-btn ">&#10095;</button>
             </div>
         </div>
+
+        <section class="courses_page">
+            <div class="container courses-container">
+                <p>Courses</p>
+                <div class="courses__card-wrapper">
+                    <div class="courses__card">
+                        <div class="courses__card-top">
+
+                            <img src="./img/card-img.png" alt="">
+                            <p class="price">299 000 UZS</p>
+                            <div class="card__about">
+                                <p class="card__about-title">Audit</p>
+                                <p class="card__about-author">Azizov Aziz</p>
+                            </div>
+                        </div>
+                        <div class="courses__card-bottom">
+                            <p class="quantity">40 ta dars</p>
+                            <button class="btn card-btn">Buy <img
+                                    src="./img/svg/play_arrow_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg"
+                                    alt=""></button>
+                        </div>
+                    </div>
+                    <div class="courses__card">
+                        <div class="courses__card-top">
+
+                            <img src="./img/card-img.png" alt="">
+                            <p class="price">299 000 UZS</p>
+                            <div class="card__about">
+                                <p class="card__about-title">Audit</p>
+                                <p class="card__about-author">Azizov Aziz</p>
+                            </div>
+                        </div>
+                        <div class="courses__card-bottom">
+                            <p class="quantity">40 ta dars</p>
+                            <button class="btn card-btn">Buy <img
+                                    src="./img/svg/play_arrow_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg"
+                                    alt=""></button>
+                        </div>
+                    </div>
+                    <div class="courses__card">
+                        <div class="courses__card-top">
+
+                            <img src="./img/card-img.png" alt="">
+                            <p class="price">299 000 UZS</p>
+                            <div class="card__about">
+                                <p class="card__about-title">Audit</p>
+                                <p class="card__about-author">Azizov Aziz</p>
+                            </div>
+                        </div>
+                        <div class="courses__card-bottom">
+                            <p class="quantity">40 ta dars</p>
+                            <button class="btn card-btn">Buy <img
+                                    src="./img/svg/play_arrow_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg"
+                                    alt=""></button>
+                        </div>
+                    </div>
+                    <div class="courses__card">
+                        <div class="courses__card-top">
+
+                            <img src="./img/card-img.png" alt="">
+                            <p class="price">299 000 UZS</p>
+                            <div class="card__about">
+                                <p class="card__about-title">Audit</p>
+                                <p class="card__about-author">Azizov Aziz</p>
+                            </div>
+                        </div>
+                        <div class="courses__card-bottom">
+                            <p class="quantity">40 ta dars</p>
+                            <button class="btn card-btn">Buy <img
+                                    src="./img/svg/play_arrow_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg"
+                                    alt=""></button>
+                        </div>
+                    </div>
+                    <div class="courses__card">
+                        <div class="courses__card-top">
+
+                            <img src="./img/card-img.png" alt="">
+                            <p class="price">299 000 UZS</p>
+                            <div class="card__about">
+                                <p class="card__about-title">Audit</p>
+                                <p class="card__about-author">Azizov Aziz</p>
+                            </div>
+                        </div>
+                        <div class="courses__card-bottom">
+                            <p class="quantity">40 ta dars</p>
+                            <button class="btn card-btn">Buy <img
+                                    src="./img/svg/play_arrow_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg"
+                                    alt=""></button>
+                        </div>
+                    </div>
+                    <div class="courses__card">
+                        <div class="courses__card-top">
+
+                            <img src="./img/card-img.png" alt="">
+                            <p class="price">299 000 UZS</p>
+                            <div class="card__about">
+                                <p class="card__about-title">Audit</p>
+                                <p class="card__about-author">Azizov Aziz</p>
+                            </div>
+                        </div>
+                        <div class="courses__card-bottom">
+                            <p class="quantity">40 ta dars</p>
+                            <button class="btn card-btn">Buy <img
+                                    src="./img/svg/play_arrow_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg"
+                                    alt=""></button>
+                        </div>
+                    </div>
+                    <div class="courses__card">
+                        <div class="courses__card-top">
+
+                            <img src="./img/card-img.png" alt="">
+                            <p class="price">299 000 UZS</p>
+                            <div class="card__about">
+                                <p class="card__about-title">Audit</p>
+                                <p class="card__about-author">Azizov Aziz</p>
+                            </div>
+                        </div>
+                        <div class="courses__card-bottom">
+                            <p class="quantity">40 ta dars</p>
+                            <button class="btn card-btn">Buy <img
+                                    src="./img/svg/play_arrow_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg"
+                                    alt=""></button>
+                        </div>
+                    </div>
+                    <div class="courses__card">
+                        <div class="courses__card-top">
+
+                            <img src="./img/card-img.png" alt="">
+                            <p class="price">299 000 UZS</p>
+                            <div class="card__about">
+                                <p class="card__about-title">Audit</p>
+                                <p class="card__about-author">Azizov Aziz</p>
+                            </div>
+                        </div>
+                        <div class="courses__card-bottom">
+                            <p class="quantity">40 ta dars</p>
+                            <button class="btn card-btn">Buy <img
+                                    src="./img/svg/play_arrow_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg"
+                                    alt=""></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <section class="discount__page">
-            <div class="container">
+            <div class="container discount-container">
                 <div class="discount__inner">
                     <div class="discount__left-box">
                         <img class="discount__icon-img" src="./img/svg/discount__icon.svg" alt="">
-                        <h2 class="discount__title">Bir vaqtning o’zida 2 ta kurs sotib oling va <span>3 chisini bepulga</span> ega boling</h2>
+                        <h2 class="discount__title">
+                            Bir vaqtning o’zida 2 ta kurs sotib oling va <span>3 chisinibepulga</span> ega boling
+                        </h2>
                         <button class="btn discount__btn">Learn More</button>
                     </div>
                     <div class="discount__right-box">
